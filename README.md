@@ -19,7 +19,6 @@
 ![NKUST](6669.png "nkust")
 
 [![555](http://img.youtube.com/vi/R0uufIdWCD4/0.jpg)](http://www.youtube.com/watch?v=R0uufIdWCD4 "484844848")
-[![](https://img.youtube.com/watch?v=bCB_nIdN86s&frags=pl%2Cwn.jpg)](https://www.youtube.com/watch?v=bCB_nIdN86s&frags=pl%2Cwn)
 
 :100:
 :kissing:
