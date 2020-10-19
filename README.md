@@ -180,20 +180,18 @@ Future task2               :         des4, after des3, 5d
 
 ```graphviz
 digraph {
-	node[shape=record];
-	rankdir="LR";
-    //node  ;
-    struct1 [label="設計UI |{{ 開始日:|結束日:}| { 編號:1|需時:}}"];
-    struct2 [label="取得授權|{{ 開始日:|結束日:}| { 編號:2|需時:}}"];
-    struct3 [label="電路板設計|{{ 開始日:|結束日:}| { 編號:3|需時:}}"];
-	struct4 [label="安裝&測試|{{ 開始日:|結束日:}| { 編號:4|需時:}}"];
-    struct5 [label="提案|{{ 開始日:|結束日:}| { 編號:5|需時:}}"];
-	struct1:f1 -> struct2:f0;
-	struct1:f0 -> struct3:f1;
-    struct2:f0 -> struct4:f1;
-    struct3:f0 -> struct4:f1;
-    struct4:f0 -> struct5:f1;
-    
+node[shape=record];
+rankdir="LR";
+struct1 [label="設計UI |{{ 開始日:|結束日:}| { 編號:1|需時:}}"];
+struct2 [label="取得授權|{{ 開始日:|結束日:}| { 編號:2|需時:}}"];
+struct3 [label="電路板設計|{{ 開始日:|結束日:}| { 編號:3|需時:}}"];
+struct4 [label="安裝&測試|{{ 開始日:|結束日:}| { 編號:4|需時:}}"];
+struct5 [label="提案|{{ 開始日:|結束日:}| { 編號:5|需時:}}"];
+struct1:f1 -> struct2:f0;
+struct1:f0 -> struct3:f1;
+struct2:f0 -> struct4:f1;
+struct3:f0 -> struct4:f1;
+struct4:f0 -> struct5:f1;
 }
 ```
 
